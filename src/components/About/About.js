@@ -8,8 +8,7 @@ const About = () => {
                 <img src={aboutImg} class="max-w-md rounded-lg shadow-2xl" alt='' />
                 <div className='px-10'>
                     <h1 class="text-5xl font-bold">Who We Are?</h1>
-                    <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <button class="btn btn-primary">Get Started</button>
+                    <p class="py-6">Seba Automation is a software company that works with citizen digital services. Such as Citizen Certificate, NID Verify, and Birth Registration Related Services. We want to extend all our services to the citizens up to the village level. I look forward to arranging their service.</p>
                 </div>
             </div>
         </div>
