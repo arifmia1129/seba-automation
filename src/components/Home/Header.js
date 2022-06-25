@@ -13,18 +13,18 @@ const Header = () => {
                     <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li><a>Home</a></li>
                         <li><a>About</a></li>
-                        <li><a>Service</a></li>
+                        <li><a>Services</a></li>
                         <li><a>Review</a></li>
                         <li><a>Contact</a></li>
                     </ul>
                 </div>
-                <a class="btn btn-ghost normal-case text-xl px-1">Seba Automation</a>
+                <a class="btn btn-ghost normal-case md:text-xl">Seba Automation</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
                     <li><a>Home</a></li>
                     <li><a>About</a></li>
-                    <li><a>Service</a></li>
+                    <li><a>Services</a></li>
                     <li><a>Review</a></li>
                     <li><a>Contact</a></li>
                 </ul>
