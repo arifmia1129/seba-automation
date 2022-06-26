@@ -3,7 +3,7 @@ import aboutImg from "../../assets/images/about.jpg";
 
 const About = () => {
     return (
-        <div class="hero lg:my:10">
+        <div class="hero lg:my:10" data-aos="fade-left" data-aos-duration="3000">
             <div class="hero-content flex-col lg:flex-row">
                 <img src={aboutImg} class="image-full lg:max-w-md rounded-lg shadow-2xl" alt='' />
                 <div className='lg:px-20'>

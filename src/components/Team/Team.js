@@ -6,7 +6,6 @@ import Person from './Person';
 
 const Team = () => {
     const team = [
-        { id: 1, name: "Shamol Chandra Das", designation: "CEO & Founder", img: shamol },
         { id: 2, name: "Rabiul Islam", designation: "Web Developer", img: other },
         { id: 3, name: "Md. Himel Ali", designation: "Web Developer", img: other },
         { id: 4, name: "Md. Arif Mia", designation: "React Developer", img: arif },
@@ -14,10 +13,10 @@ const Team = () => {
 
     ]
     return (
-        <div className='my-10'>
+        <div data-aos="fade-left" data-aos-duration="3000" className='my-10'>
             <h3 className='text-3xl text-center font-bold'>Team</h3>
             <p className='text-center mb-5'>We have a special team. We are working friendly.</p>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-5'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mx-auto'>
                 {
                     team.map(person => <Person
                         key={person.id}

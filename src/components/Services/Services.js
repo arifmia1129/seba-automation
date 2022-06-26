@@ -13,7 +13,7 @@ const Services = () => {
         { id: 4, name: "SMS Service", img: sms, description: "Any Union Porisod or Pourosova or City Corporation or Digital Center Entrepreneur will send blank sms to citizen with using our system." }
     ]
     return (
-        <div className='my-10'>
+        <div data-aos="fade-right" data-aos-duration="3000" className='my-10'>
             <h3 className='text-3xl text-center font-bold'>Services</h3>
             <p className='text-center mb-5'>We provide a variety of services through our system. We are constantly adding more and more services to our system. Some of our services:</p>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>

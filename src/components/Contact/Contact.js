@@ -5,7 +5,7 @@ import { BsFillTelephoneFill } from 'react-icons/bs';
 
 const Contact = () => {
     return (
-        <div className='my-10'>
+        <div data-aos="fade-right" data-aos-duration="3000" className='my-10'>
             <h3 className='text-3xl text-center font-bold'>Contact Us</h3>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 my-5'>
                 <div class="card bg-base-100 shadow-xl lg:p-5 border">
