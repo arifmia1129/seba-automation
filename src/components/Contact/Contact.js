@@ -5,10 +5,10 @@ import { BsFillTelephoneFill } from 'react-icons/bs';
 
 const Contact = () => {
     return (
-        <div data-aos="fade-right" data-aos-duration="3000" className='my-10'>
+        <div id="contact" data-aos="fade-right" data-aos-duration="3000" className='my-10'>
             <h3 className='text-3xl text-center font-bold'>Contact Us</h3>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 my-5'>
-                <div class="card bg-base-100 shadow-xl lg:p-5 border">
+                <div className="card bg-base-100 shadow-xl lg:p-5 border">
                     <div className='flex items-center my-3'>
                         <MdLocationOn className='text-primary text-2xl mx-5' />
                         <div>
@@ -30,9 +30,9 @@ const Contact = () => {
                             <p>+8801707482324</p>
                         </div>
                     </div>
-                    <div class="mapouter mx-auto my-5">
-                        <div class="gmap_canvas">
-                            <iframe title='..' className='w-[250px] md:w-[500px] h-[300px]' id="gmap_canvas" src="https://maps.google.com/maps?q=seba%20automation&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                    <div className="mapouter mx-auto my-5">
+                        <div className="gmap_canvas">
+                            <iframe title='..' className='w-[250px] md:w-[500px] h-[300px]' id="gmap_canvas" src="https://maps.google.com/maps?q=seba%20automation&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0">
                             </iframe>
                         </div>
                     </div>

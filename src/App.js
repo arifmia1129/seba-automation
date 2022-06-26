@@ -8,6 +8,8 @@ import Team from './components/Team/Team';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import Header from './components/Home/Header';
 
 function App() {
   useEffect(() => {
@@ -15,12 +17,15 @@ function App() {
   }, [])
   return (
     <div className='max-w-7xl mx-auto px-2'>
-      <Home />
-      <About />
-      <Services />
-      <Team />
-      <Contact />
-      <Footer />
+      <BrowserRouter>
+        <Header />
+        <Home />
+        <About />
+        <Services />
+        <Team />
+        <Contact />
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }
