@@ -3,7 +3,7 @@ import bannerImg from "../../assets/images/header-banner.jpg";
 
 const HeaderBanner = () => {
     return (
-        <div id="home" className="hero lg:my-10" data-aos="fade-right" data-aos-duration="3000">
+        <div id="home" className="hero lg:my-10" data-aos="fade-left" data-aos-duration="3000">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <img src={bannerImg} className="lg:max-w-md rounded-lg shadow-2xl image-full" alt='' />
                 <div className='lg:pr-32' >

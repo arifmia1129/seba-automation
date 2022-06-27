@@ -2,8 +2,20 @@ import React from 'react';
 import { MdLocationOn } from 'react-icons/md';
 import { MdEmail } from 'react-icons/md';
 import { BsFillTelephoneFill } from 'react-icons/bs';
+import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
+    const handleSubmit = e => {
+        e.preventDefault();
+        emailjs.sendForm("service_lcg6ilv", "template_z1ow53d", e.target, "ZkJVDVzm-1v4iM6d8").then(res => {
+            if (res.text === "OK") {
+                toast.success("Your information received!");
+                e.target.reset();
+            }
+        });
+    }
     return (
         <div id="contact" data-aos="fade-right" data-aos-duration="3000" className='my-10'>
             <h3 className='text-3xl text-center font-bold'>Contact Us</h3>
@@ -38,7 +50,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className='flex justify-center items-center lg:card lg:shadow-xl lg:border'>
-                    <form >
+                    <form onSubmit={handleSubmit}>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Full Name</span>
@@ -63,6 +75,7 @@ const Contact = () => {
                     </form>
                 </div>
             </div>
+            <ToastContainer />
         </div>
     );
 };

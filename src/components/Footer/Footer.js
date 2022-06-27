@@ -3,7 +3,7 @@ import seba from "../../assets/images/seba-automation-ekpay-logo.png"
 
 const Footer = () => {
     return (
-        <footer className="footer footer-center p-10 border border-2 rounded-lg">
+        <footer className="footer footer-center p-10 border-2 rounded-lg">
             <div>
                 <img src={seba} alt="" />
                 <p className="font-bold">

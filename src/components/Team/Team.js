@@ -1,5 +1,4 @@
 import React from 'react';
-import shamol from "../../assets/images/shamol.jpg";
 import other from "../../assets/images/other.jpg";
 import arif from "../../assets/images/arif.jpeg";
 import Person from './Person';
