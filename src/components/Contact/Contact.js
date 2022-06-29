@@ -25,7 +25,7 @@ const Contact = () => {
                         <MdLocationOn className='text-primary text-2xl mx-5' />
                         <div>
                             <p className='text-2xl font-bold'>Location</p>
-                            <p>Rajabari Bazar, Union Parishad, Road, Sreepur 1742</p>
+                            <p>Rajabari Bazar, Union Parishad Road, Sreepur, Gazipur-1742</p>
                         </div>
                     </div>
                     <div className='flex items-center my-3'>
